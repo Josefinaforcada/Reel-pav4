@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reel - Pav4</title>
     <link rel="stylesheet" href="css/locomotive-scroll.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <main data-scroll-container>
-        <audio autoplay>
+        <audio autoplay loop>
             <source src="Img/musica.mp3" type="audio/mpeg">
         </audio>
         <section class="frame1" data-scroll-section style="height: 100vh;">
@@ -19,12 +19,14 @@
         </section>
         <section class="frame2" data-scroll-section>
             <img data-scroll data-scroll-speed="2" src="Img/texto-trabajo.png" alt="">
+            <h2 class="titulo-trabajo" data-scroll data-scroll-speed="-4" data-scroll-direction="horizontal">(Hace una semana)</h2>
         </section>
         <section class="frame3" data-scroll-section>
             <img data-scroll data-scroll-speed="1" data-scroll-direction="horizontal" src="Img/cafe-paralax.png" alt="">
+            <h2 class="titulo-cafe" data-scroll data-scroll-speed="-3" data-scroll-direction="horizontal">En serio.</h2>
         </section>
         <section class="frame4" data-scroll-section>
-            <img data-scroll data-scroll-speed="1" src="Img/lagrimas.png" alt="">
+            <img data-scroll data-scroll-speed="1.5" src="Img/lagrimas.png" alt="">
         </section>
         <section class="frame5" data-scroll-section>
             <img data-scroll data-scroll-speed="1" data-scroll-direction="horizontal" src="Img/programar-8.png" alt="">
@@ -36,7 +38,7 @@
             <img data-scroll data-scroll-speed="1" data-scroll-direction="horizontal" src="Img/jueguitos-paralax-8.png" alt="">
         </section> 
         <section class="frame8" data-scroll-section>
-            <img data-scroll data-scroll-speed="-2" src="Img/2022-paralax-8.png" alt="">
+            <img data-scroll data-scroll-speed="2" src="Img/2022-paralax-8.png" alt="">
         </section>
     </main>
     
@@ -50,6 +52,8 @@
     smooth: true,
     multiplier:1
 });
+
 </script>
+
 </body>
 </html>

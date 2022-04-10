@@ -1,3 +1,5 @@
-import LocomotiveScroll from './node_modules/locomotive-scroll';
 
-const scroll = new LocomotiveScroll();
+var x = document.getElementById("myAudio"); 
+
+
+x.play(); 
