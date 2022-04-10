@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/locomotive-scroll.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main data-scroll-container>
+        <audio autoplay>
+            <source src="img/musica.mp3" type="audio/mpeg">
+        </audio>
+        <section class="frame1" data-scroll-section style="height: 100vh;">
+            <img data-scroll data-scroll-speed="-1" src="img/texto-1.png" alt="">
+        </section>
+        <section class="frame2" data-scroll-section>
+            <img data-scroll data-scroll-speed="2" src="img/texto-trabajo.png" alt="">
+        </section>
+        <section class="frame3" data-scroll-section>
+            <img data-scroll data-scroll-speed="1" data-scroll-direction="horizontal" src="img/cafe-paralax.png" alt="">
+        </section>
+        <section class="frame4" data-scroll-section>
+            <img data-scroll data-scroll-speed="1" src="img/lagrimas.png" alt="">
+        </section>
+        <section class="frame5" data-scroll-section>
+            <img data-scroll data-scroll-speed="1" data-scroll-direction="horizontal" src="img/programar-8.png" alt="">
+        </section>   
+        <section class="frame6" data-scroll-section>
+            <img data-scroll data-scroll-speed="2" src="img/dibujar-paralax-8.png" alt="">
+        </section>
+        <section class="frame7" data-scroll-section>
+            <img data-scroll data-scroll-speed="1" data-scroll-direction="horizontal" src="img/jueguitos-paralax-8.png" alt="">
+        </section> 
+        <section class="frame8" data-scroll-section>
+            <img data-scroll data-scroll-speed="-2" src="img/2022-paralax-8.png" alt="">
+        </section>
+    </main>
+    
+    
+
+
+<script src="js/locomotive-scroll.js"></script>
+<script>
+    const scroll = new LocomotiveScroll({
+    el: document.querySelector('[data-scroll-container]'),
+    smooth: true,
+    multiplier:1
+});
+</script>
+</body>
+</html>

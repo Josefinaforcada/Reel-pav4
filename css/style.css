@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.frame2{
+    background-image: url('../Img/Frame2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+}
+
+.frame1{
+    background-color: #F2DEC4;
+}
+
+.frame3{
+    background-image: url('../Img/cafe-fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frame4{
+    background-image: url('../Img/fondo-lloro.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frame5{
+    background-image: url('../Img/programar-fondo-100.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frame6{
+    background-image: url('../Img/dibujar-fondo-100.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frame7{
+    background-image: url('../Img/jueguitos-fondo-100.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frame8{
+    background-color: #4178BF;
+}
